@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+}
+
+.elements {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.element {
+  width: 50%;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  font-family: arial, sans-serif;
+  padding: 5px 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 0.9em;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
